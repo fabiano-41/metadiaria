@@ -146,3 +146,56 @@
         font-size: 28px;
       }
     }
+
+@media (max-width: 600px) {
+  body {
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  .tela {
+    max-width: 100%;
+    padding: 22px;
+    margin-top: 30px;
+    border-radius: 16px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  input {
+    font-size: 15px;
+    padding: 13px;
+  }
+
+  button {
+    font-size: 15px;
+    padding: 13px;
+  }
+
+  .meta {
+    padding: 12px;
+  }
+
+  .meta label {
+    gap: 10px;
+  }
+
+  .meta input[type="checkbox"] {
+    min-width: 22px;
+    min-height: 22px;
+  }
+
+  .meta span {
+    font-size: 15px;
+  }
+
+  #mensagem {
+    font-size: 16px;
+  }
+}
