@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>metadiaria</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- LOGIN -->
+  <div class="tela" id="login">
+
+    <h1>Minhas Metas</h1>
+
+    <p>Entre para organizar seu dia</p>
+
+    <input type="text" id="nome" placeholder="Digite seu nome">
+
+    <input type="password" id="senha" placeholder="Digite sua senha">
+
+    <button onclick="entrar()">
+      Entrar
+    </button>
+
+  </div>
+
+  <!-- APP -->
+  <div class="tela" id="app">
+
+    <h1 id="tituloUsuario"></h1>
+
+    <p>Escreva suas metas do dia</p>
+
+    <input 
+      type="text" 
+      id="novaMeta" 
+      placeholder="Digite uma meta"
+    >
+
+    <button onclick="adicionarMeta()">
+      Adicionar Meta
+    </button>
+
+    <div class="progresso" id="progresso">
+      0 de 0 metas concluídas
+    </div>
+
+    <div id="listaMetas"></div>
+
+    <div id="mensagem"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
